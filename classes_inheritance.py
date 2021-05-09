@@ -2,11 +2,12 @@
 
 
 class Employee:
-    def __init__(self, first, last, pay):
+    def __init__(self, first, last, pay,phone):
         self.first = first
         self.last = last
         self.pay = pay
         self.email = first + '.' + last + '@company.com'
+        self.phone = phone
 
     def fullname(self):
         return f"{self.first} {self.last}"
